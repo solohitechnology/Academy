@@ -1,0 +1,356 @@
+.coursesCard {
+  padding: 50px 0;
+  height: auto;
+}
+
+.coursesCard .items {
+  background-color: #ffffff;
+  padding: 30px;
+  width: 500px;
+  /* display: flex; */
+}
+
+.coursesCard .img {
+  width: 80px;
+  height: 80px;
+  /* border-radius: 50%; */
+  background-color: #5a4f79;
+  padding: 15px;
+}
+
+/* .coursesCard .img img {
+   border-radius: 50%;
+} */
+
+.coursesCard img {
+  width: 200%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.coursesCard .text {
+  margin-left: 15px;
+  text-align: left;
+}
+
+.coursesCard .text h1 {
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 45px;
+}
+
+.coursesCard .rate {
+  margin: 20px 0;
+  color: #59517e;
+}
+
+.coursesCard .rate i {
+  font-size: 13px;
+  margin-right: 5px;
+}
+
+.coursesCard .details .dimg img {
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  margin-right: 20px;
+}
+
+.coursesCard .details .box {
+  display: flex;
+  align-items: center;
+  color: grey;
+}
+
+.coursesCard .details .box h4 {
+  /* color: blue; */
+  padding-right: 25rem;
+}
+
+
+.coursesCard .details span {
+  color: #4b4a70;
+  font-weight: 500;
+  font-size: 14px;
+}
+
+.coursesCard .price {
+  margin: 30px 0;
+  background-color: #f8f8f8;
+  padding: 10px;
+}
+
+.coursesCard h3 {
+  font-weight: 500;
+  color: #463c63;
+}
+
+/*-------------online---------*/
+.online {
+  text-align: center;
+}
+
+.online .box {
+  box-shadow: 0 5px 25px -2px rgb(0 0 0 / 6%);
+  color: gold;
+  padding: 30px 20px;
+  transition: 0.5s;
+  background-color: #59517e;
+}
+
+.online .img {
+  width: 100px;
+  height: 100px;
+  margin: auto;
+  position: relative;
+}
+
+.online  .img {
+  overflow-y: hidden;
+  }
+
+.online img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  border-radius: 50%;
+}
+
+.online h1 {
+  font-weight: 500;
+  font-size: 20px;
+  margin: 20px 0;
+  line-height: 30px;
+}
+
+.online span {
+  background-color: #f8f8f8;
+  padding: 5px 20px;
+  font-weight: 500;
+  font-size: 15px;
+  color: #cfc9d4;
+  border-radius: 5px;
+}
+
+.online .box .show {
+  opacity: 1;
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+
+.online .box:hover {
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.online .box:hover .show {}
+
+.online .box:hover h1 {
+  color: #fff;
+}
+
+.back h1 {
+  color: white;
+}
+
+@media screen and (max-width: 990px) {
+
+  .online {
+    text-align: center;
+    width: 100%;
+
+  }
+
+  .container .grid3 {
+    display: flex;
+    flex-direction: column;
+    color: rgb(116, 121, 167);
+    width: 200px;
+
+  }
+
+  .coursesCard .items {
+    background-color: #c7c7dd;
+    width: 100%;
+    color: black;
+    /* display: flex; */
+  }
+
+
+  .container .grid2 {
+    display: flex;
+    text-align: center;
+    flex-direction: column;
+  }
+
+  .container .items .content {
+    display: flex;
+    flex-direction: column;
+
+  }
+
+  .container .items h1 {
+    color: rgb(24, 24, 21);
+    width: 100%;
+
+  }
+
+  .container .text .price {
+    font-size: 10px;
+    font-weight: bolder;
+
+  }
+
+
+
+  .container .courses h1 {
+    color: rgb(154, 154, 185);
+    width: 50px;
+    background-color: whitesmoke;
+  }
+
+}
+
+
+
+@media screen and (max-width: 390px) {
+
+  .online {
+    text-align: center;
+    width: 100%;
+
+  }
+
+  .container .grid3 {
+    display: flex;
+    flex-direction: column;
+    color: rgb(195, 196, 204);
+    width: 200px;
+
+  }
+
+  .coursesCard .items {
+    background-color: #c7c7dd;
+    width: 100%;
+    color: black;
+    /* display: flex; */
+  }
+
+
+  .container .grid2 {
+    display: flex;
+    text-align: center;
+    flex-direction: column;
+  }
+
+  .container .items .content {
+    display: flex;
+    flex-direction: column;
+
+  }
+
+  .container .items h1 {
+    color: rgb(24, 24, 21);
+    width: 150px;
+
+  }
+
+  .container .text .price {
+    font-size: 10px;
+    font-weight: bolder;
+  }
+
+
+
+  .container .courses h1 {
+    color: rgb(154, 154, 185);
+    width: 50px;
+    background-color: whitesmoke;
+  }
+
+}
+
+
+@media screen and (max-width: 590px) {
+
+  /*  */
+
+  .online {
+    width: 100%;
+    /* overflow-y: hidden; */
+  }
+
+
+
+  .online .container {
+    width: 100%;
+
+  }
+
+  
+
+  .online .container .content {
+    width: 100%;
+    overflow-x: hidden;
+
+  }
+
+  .online .container .content .box {
+    background-color: rgb(148, 143, 192);
+    width: 100%;
+  }
+
+  .container .grid3 {
+    display: flex;
+    flex-direction: column;
+    overflow: hidden;
+    width: 200px;
+
+  }
+
+  .coursesCard {
+    background-color: #ffffff;
+    height: auto;
+  }
+
+  .coursesCard .items {
+    background-color: #ddddeb;
+    width: 100%;
+    color: black;
+
+  }
+
+
+  .coursesCard .container {
+    display: flex;
+    text-align: center;
+    flex-direction: column;
+    overscroll-behavior-: none;
+  }
+
+  .container .items .content {
+    display: flex;
+    flex-direction: column;
+
+  }
+
+  .container .items h1 {
+    color: rgb(54, 54, 40);
+    width: 150px;
+  }
+
+  .container .text .price {
+    font-size: 10px;
+    font-weight: bolder;
+  }
+
+
+
+  .container .courses h1 {
+    color: rgb(23, 23, 224);
+    width: 300px;
+    background-color: whitesmoke;
+  }
+
+}

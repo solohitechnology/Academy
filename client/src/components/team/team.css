@@ -1,0 +1,109 @@
+.team .items {
+  transition: 0.2s;
+  color: rgb(93, 82, 133);
+  border-radius: 10px;
+  margin: 10px;
+  box-shadow: 20px 20px 20px black;
+}
+
+.team .img {
+  position: relative;
+
+
+}
+
+.team img {
+  width: 100%;
+  height: 100%;
+  color: #fff;
+  border-radius: 30%;
+}
+
+.overlay {
+  position: absolute;
+  bottom: 0;
+  z-index: 11;
+  display: flex;
+  flex-direction: column;
+  padding: 20px;
+  opacity: 0;
+  transition: 0.5s;
+}
+
+.overlay i {
+  background-color: #000;
+  color: #fff;
+  margin: 5px;
+  transition: 0.5s;
+}
+
+.team .details {
+  padding: 30px;
+  text-align: center;
+}
+
+.team .details h2 {
+  font-weight: 500;
+  font-size: 20px;
+  transition: 0.5s;
+}
+
+.team .details p {
+  font-size: 15px;
+  color: grey;
+  margin-top: 10px;
+  transition: 0.5s;
+}
+
+.team .items:hover {
+  /* background-color: #5c5383a2; */
+  background-color: beige;
+  color: #110202;
+  cursor: pointer;
+}
+
+.team .items:hover p {
+  color: #130303;
+}
+
+.team .items:hover .overlay {
+  opacity: 1;
+}
+
+.team .items:hover .overlay i:hover {
+  /* background-color: #120b3f77; */
+  color: #fff;
+}
+
+.item_container {
+  display: grid;
+  grid-template-columns: auto auto auto;
+  width: 100vw;
+  padding-right: 200px;
+
+
+}
+
+@media screen and (max-width: 590px) {
+
+
+  .team .items {
+    transition: 0.2s;
+    color: rgb(84, 110, 84);
+    display: flex;
+    flex-direction: column;
+    border-radius: 5%;
+    box-shadow: 20px 20px 20px;
+
+  }
+
+  .item_container {
+    width: 100vw;
+    padding-right: 70px;
+    padding-top: 70px;
+    display: flex;
+    flex-direction: column;
+
+  }
+
+}

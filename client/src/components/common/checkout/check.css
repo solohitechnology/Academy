@@ -1,0 +1,17 @@
+.paystack-button {
+  background-color: white;
+  color: black;
+  box-shadow: 5px 5px 3px black;
+}
+
+
+@media screen and (max-width: 590px){
+  .paymentInput {
+    padding: 30px;
+  }
+
+  .paymentInput input {
+    margin: 50px;
+  }
+
+}
